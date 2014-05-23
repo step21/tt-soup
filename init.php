@@ -4,7 +4,7 @@ class Soup extends Plugin {
   private $host;
 
   function about() {
-    return array(1.0,
+    return array(0.1,
     "Share article on soup.io",
     "?");
   }
