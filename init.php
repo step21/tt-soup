@@ -22,7 +22,7 @@ class Soup extends Plugin {
   function hook_article_button($line) {
     $article_id = $line["id"];
 
-    $rv = "<img src=\"plugins/tt_soup/soup.png\"
+    $rv = "<img src=\"plugins/soup/soup.png\"
     class='tagsPic' style=\"cursor : pointer\"
     onclick=\"shareArticleToSoup($article_id)\"
     title='".__('Soup')."'>";
