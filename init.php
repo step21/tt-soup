@@ -16,7 +16,7 @@ class Soup extends Plugin {
   }
 
   function get_js() {
-    return file_get_contents(dirname(__FILE__) . "/soup.js");
+    return file_get_contents(dirname(__FILE__) . "/nsoup.js");
   }
 
   function hook_article_button($line) {
